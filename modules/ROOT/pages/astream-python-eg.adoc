@@ -25,7 +25,7 @@ In the code examples, you'll need to make the following substitutions:
 * *<topic-url>*: A topic URL of your choice from the Astra Streaming Console *Topics* tab.
 * *<subscription-name>*: A subscription name of your choice, or one that you've configured in the *Details* tab of an existing topic.
 
-include::tab-part.adoc[]
+include::page$tab-part.adoc[]
 
 Producer::
 +
