@@ -1,18 +1,3 @@
-= Astra Streaming QuickStart
-:slug: astra-streaming-quick-start
-
-This QuickStart aims to make you familiar with the following steps:
-
-* _Prerequisite:_ xref:astream-quick-start.adoc#create-astra-acct[Create an Astra account, if you don't have one already.]
-* xref:astream-quick-start.adoc#create-a-tenant[Create an Astra Streaming tenant.]
-* xref:astream-quick-start.adoc#create-a-namespace[Create an Astra streaming namespace.]
-* xref:astream-quick-start.adoc#create-a-topic[Create an Astra Streaming topic.]
-* xref:astream-quick-start.adoc#download-connect-info[Download Pulsar connection information.]
-* _Optional:_ xref:astream-quick-start.adoc#download-pulsar[Download and configure Apache Pulsar command-line (CLI) tools.]
-* _Optional:_ xref:astream-quick-start.adoc#use-pulsar-tools[Use the Apache Pulsar CLI tools to produce and consume messages.]
-* _Optional:_ xref:astream-quick-start.adoc#review-topic-statistics[Review messaging statistics.]
-* _Optional:_ xref:astream-quick-start.adoc#create-a-sink[Create an Astra Streaming sink.]
-* _Optional:_ xref:astream-quick-start.adoc#delete-a-tenant[Delete an Astra Streaming tenant.]
 
 [#create-astra-acct]
 == Create an Astra account
