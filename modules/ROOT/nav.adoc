@@ -1,4 +1,4 @@
-* xref:index.adoc[DataStax Astra Streaming]
+* xref:index.adoc[DataStax Astra Streaming TEST1]
 ** xref:astream-faq.adoc[Astra Streaming FAQs]
 * xref:astream-quick-start.adoc[Astra Streaming QuickStart]
 ** xref:astream-sinks.adoc[Astra Streaming sinks]

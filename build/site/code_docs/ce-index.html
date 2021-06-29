@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Astra Streaming QuickStart :: DataStax Astra Streaming Documentation</title>
+    <title>Astra Streaming Code examples :: DataStax Astra Streaming Documentation</title>
+    <link rel="prev" href="index.html">
     <meta name="generator" content="Antora 3.0.0-alpha.6">
     <link rel="stylesheet" href="../assets/css/site.css">
 
@@ -53,49 +54,17 @@
   </nav>
 </header>
 <div class="body">
-<div class="nav-container" data-component="docs" data-version="master">
+<div class="nav-container" data-component="code_docs" data-version="master">
   <aside class="nav">
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
-    <h3 class="title"><a href="index.html">DataStax Astra Streaming Documentation Test1</a></h3>
+    <h3 class="title"><a href="index.html">DataStax Astra Streaming Documentation Code Examples</a></h3>
 <ul class="nav-list">
   <li class="nav-item toggler" data-depth="0">
 <ul class="nav-list">
-  <li class="nav-item toggler" data-depth="1">
-    <a class="nav-link" href="index.html">DataStax Astra Streaming</a>
-    <button class="nav-item-toggle">
-      <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2" />
-      </svg>
-    </button>
-<ul class="nav-list">
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="astream-faq.html">Astra Streaming FAQs</a>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item toggler" data-depth="1">
-    <a class="nav-link" href="astream-quick-start.html">Astra Streaming QuickStart</a>
-    <button class="nav-item-toggle">
-      <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2" />
-      </svg>
-    </button>
-<ul class="nav-list">
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="astream-sinks.html">Astra Streaming sinks</a>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="astream-code-examples.html">Astra Streaming code examples</a>
-  </li>
-  <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="astream-use-devops.html">Use the DevOps v2 API</a>
-  </li>
-  <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="api.html">API references</a>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="ce-index.html">DataStax Astra Streaming Code examples</a>
   </li>
 </ul>
   </li>
@@ -104,23 +73,23 @@
 </div>
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
-    <span class="title">DataStax Astra Streaming Documentation Test1</span>
+    <span class="title">DataStax Astra Streaming Documentation Code Examples</span>
     <span class="version">Latest</span>
   </div>
   <ul class="components">
-    <li class="component">
-      <span class="title">DataStax Astra Streaming Documentation Code Examples</span>
-      <ul class="versions">
-        <li class="version">
-          <a href="../code_docs/index.html">Latest</a>
-        </li>
-      </ul>
-    </li>
     <li class="component is-current">
-      <span class="title">DataStax Astra Streaming Documentation Test1</span>
+      <span class="title">DataStax Astra Streaming Documentation Code Examples</span>
       <ul class="versions">
         <li class="version is-current">
           <a href="index.html">Latest</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">DataStax Astra Streaming Documentation Test1</span>
+      <ul class="versions">
+        <li class="version">
+          <a href="../docs/index.html">Latest</a>
         </li>
       </ul>
     </li>
@@ -134,126 +103,46 @@
 <button class="nav-toggle"></button>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="index.html">DataStax Astra Streaming Documentation Test1</a></li>
-    <li><a href="qs-create-tenant.html">Astra Streaming QuickStart</a></li>
+    <li><a href="index.html">DataStax Astra Streaming Documentation Code Examples</a></li>
+    <li><a href="ce-index.html">DataStax Astra Streaming Code examples</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/polandll/astra-streaming-test1/edit/master/modules/ROOT/pages/qs-create-tenant.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/polandll/astra-streaming-code-ex/edit/main/modules/ROOT/pages/ce-index.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Astra Streaming QuickStart</h1>
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>This QuickStart aims to make you familiar with the following steps:</p>
-</div>
+<h1 class="page">Astra Streaming Code examples</h1>
 <div class="ulist">
 <ul>
 <li>
-<p><em>Prerequisite:</em> <a href="astream-quick-start.html#create-astra-acct" class="page">Create an Astra account, if you don&#8217;t have one already.</a></p>
+<p><a href="#CODE_EX:example$check_tenant_exists.sh" class="page unresolved">CODE_EX:example$check_tenant_exists.sh</a></p>
 </li>
 <li>
-<p><a href="astream-quick-start.html#create-a-tenant" class="page">Create an Astra Streaming tenant.</a></p>
+<p><a href="#CODE_EX:example$create_tenant.sh" class="page unresolved">CODE_EX:example$create_tenant.sh</a></p>
 </li>
 <li>
-<p><a href="astream-quick-start.html#create-a-namespace" class="page">Create an Astra streaming namespace.</a></p>
+<p><a href="#CODE_EX:example$get_tenants.sh" class="page unresolved">CODE_EX:example$get_tenants.sh</a></p>
 </li>
 <li>
-<p><a href="astream-quick-start.html#create-a-topic" class="page">Create an Astra Streaming topic.</a></p>
+<p><a href="#CODE_EX:example$get_tenant_limits.sh" class="page unresolved">CODE_EX:example$get_tenant_limits.sh</a></p>
 </li>
 <li>
-<p><a href="astream-quick-start.html#download-connect-info" class="page">Download Pulsar connection information.</a></p>
+<p><a href="#CODE_EX:example$get_clusters.sh" class="page unresolved">CODE_EX:example$get_clusters.sh</a></p>
 </li>
 <li>
-<p><em>Optional:</em> <a href="astream-quick-start.html#download-pulsar" class="page">Download and configure Apache Pulsar command-line (CLI) tools.</a></p>
+<p><a href="#CODE_EX:example$get_providers.sh" class="page unresolved">CODE_EX:example$get_providers.sh</a></p>
 </li>
 <li>
-<p><em>Optional:</em> <a href="astream-quick-start.html#use-pulsar-tools" class="page">Use the Apache Pulsar CLI tools to produce and consume messages.</a></p>
+<p><a href="#CODE_EX:example$delete_tenant_hard.sh" class="page unresolved">CODE_EX:example$delete_tenant_hard.sh</a></p>
 </li>
 <li>
-<p><em>Optional:</em> <a href="astream-quick-start.html#review-topic-statistics" class="page">Review messaging statistics.</a></p>
-</li>
-<li>
-<p><em>Optional:</em> <a href="astream-quick-start.html#create-a-sink" class="page">Create an Astra Streaming sink.</a></p>
-</li>
-<li>
-<p><em>Optional:</em> <a href="astream-quick-start.html#delete-a-tenant" class="page">Delete an Astra Streaming tenant.</a></p>
+<p><a href="#CODE_EX:example$delete_tenant_soft.sh" class="page unresolved">CODE_EX:example$delete_tenant_soft.sh</a></p>
 </li>
 </ul>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="create-astra-acct"><a class="anchor" href="#create-astra-acct"></a>Create an Astra account</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Before you can complete this quick start, you&#8217;ll need to create an Astra account.</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Go to <a href="https://astra.datastax.com" class="bare">https://astra.datastax.com</a>, create an account &#8230;&#8203;</p>
-<div class="imageblock">
-<div class="content">
-<img src="_images/astream-login.png" alt="Login to Astra Streaming">
-</div>
-</div>
-</li>
-<li>
-<p>&#8230;&#8203; and <a href="https://astra.datastax.com">login</a>.</p>
-</li>
-<li>
-<p>Click <strong>Create Streaming</strong>:</p>
-<div class="imageblock">
-<div class="content">
-<img src="_images/astream-create-streaming.png" alt="Create Streaming">
-</div>
-</div>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="create-a-tenant"><a class="anchor" href="#create-a-tenant"></a>Create an Astra Streaming tenant</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Astra Streaming is based on Apache Pulsar which uses a concept of tenant as its
-top level administrative unit.
-A tenant has multiple namespaces for logical grouping of different applications.
-In each namespace you can create multiple topics to send and receive data.
-Your Astra Streaming account allows you to create a single Pulsar tenant
-containing a maximum of two namespaces that can each contain multiple topics.</p>
-</div>
-<div class="paragraph">
-<p>Let&#8217;s begin by creating a new Astra Streaming tenant:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Enter the name for your new streaming tenant and select a provider &#8230;&#8203;</p>
-<div class="imageblock">
-<div class="content">
-<img src="_images/astream-create-tenant.png" alt="Create new tenant">
-</div>
-</div>
-</li>
-<li>
-<p>&#8230;&#8203; and click <strong>Create Tenant</strong></p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>Your tenant name must start with a lowercase alphabetic character.
-It can only contain lowercase alphabetic characters, numbers, and hyphens (kebab-case).</p>
-</div>
-<div class="paragraph">
-<p>Currently, only one region is available for each provider.
-During the beta period, the billing plan is free.</p>
-</div>
-</div>
-</div>
+<nav class="pagination">
+  <span class="prev"><a href="index.html">DataStax Astra Streaming Documentation Code Examples</a></span>
+</nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>

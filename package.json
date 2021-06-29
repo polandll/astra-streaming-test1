@@ -1,5 +1,5 @@
 {
-  "name": "astra-streaming-docs",
+  "name": "astra-streaming-test1",
   "scripts": {
     "build:prod": "npm run build:devopsapi && npm run build:publish",
     "build:dev": "npm run build:devopsapi && npm run build:local",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riptano/astra-docs.git"
+    "url": "git+https://github.com/polandll/astra-streaming-test1.git"
   },
   "dependencies": {
     "@antora/cli": "^2.3.4",

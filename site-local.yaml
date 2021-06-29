@@ -1,13 +1,12 @@
 site:
-  title: DataStax Astra Streaming Documentation
-  url: /astra-streaming-docs
+  title: DataStax Astra Streaming Documentation TEST1
+  url: /astra-streaming-test1
 
 content:
-  edit_url: 'https://github.com/polandll/astra-streaming-test1/blob/main/{path}'
   sources:
-  - url: .
+  - url: 'git@github.com:polandll/astra-streaming-test1'
     branches: HEAD
-  - url: 'https://github.com/polandll/astra-streaming-code-ex/blob/main/{path}'
+  - url: 'git@github.com:polandll/astra-streaming-code-ex'
     branches: HEAD
 
 ui:
