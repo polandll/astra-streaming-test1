@@ -31,7 +31,7 @@ cURL command::
 --
 [source,shell,subs="attributes+"]
 ----
-include::astra-streaming-code-ex:ROOT:example$get_clusters.sh[]
+include::astra-streaming-code-ex:CODE_EX:example$get_clusters.sh[]
 ----
 --
 
