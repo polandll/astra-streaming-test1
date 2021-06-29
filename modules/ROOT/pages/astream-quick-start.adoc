@@ -14,7 +14,7 @@ This QuickStart aims to make you familiar with the following steps:
 * _Optional:_ xref:astream-quick-start.adoc#create-a-sink[Create an Astra Streaming sink.]
 * _Optional:_ xref:astream-quick-start.adoc#delete-a-tenant[Delete an Astra Streaming tenant.]
 
-include:create-a-tenant.adoc[Create an Astra Streaming tenant]
+include::page$create-a-tenant.adoc[Create an Astra Streaming tenant]
 
 [#create-a-namespace]
 == Create an Astra Streaming namespace
