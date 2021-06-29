@@ -25,18 +25,7 @@ In the code examples, you'll need to make the following substitutions:
 * *<topic-url>*: A topic URL of your choice from the Astra Streaming Console *Topics* tab.
 * *<subscription-name>*: A subscription name of your choice, or one that you've configured in the *Details* tab of an existing topic.
 
-[tabs]
-====
-pip::
-+
---
-To do a native install using pip:
-
-[source,bash]
-----
-include::astra-streaming-code-ex:CODE_EX:example$PYTHON/pip1.sh[]
-----
---
+include::tab-part.adoc[]
 
 Producer::
 +
