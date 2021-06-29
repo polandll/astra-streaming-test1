@@ -1,0 +1,16 @@
+name: docs
+title: DataStax Astra Streaming Documentation Test1
+version: master
+display_version: 'Latest'
+asciidoc:
+  attributes:
+    base_url: 'https://api.astra.datastax.com'
+    base_api: '/v2/streaming'
+    bearer_token: '$BEARER_TOKEN'
+    bearer_token_value: '<replace-me>'
+    tenant_name: 'testcreate'
+    tenant_name_with_topics: 'llp-test'
+    topic_name: 'blah'
+    cluster_name: 'astradev-aws'
+nav:
+- modules/ROOT/nav.adoc

@@ -1,0 +1,43 @@
+= Astra Streaming FAQs
+
+== How do I sign up for the Astra Streaming beta?
+
+For instructions on signing up for the Astra Streaming beta, see xref:astream-quick-start.adoc#create-astra-acct[Create Astra account].
+
+== How is Astra Streaming priced?
+Astra Streaming offers customers a pay-as-you-go, consumption based pricing model that allows customers to start using Astra Streaming for free with a cost model that scales as they grow.
+
+Customers can opt to customize their deployment to meet specific requirements which will adjust their pricing up or down depending on their specific requirement. These customizations options include items such as:
+
+* Message retention duration
+* Maximum message retention storage
+* Data locality / isolation
+* Number of regions
+
+== Why did DataStax opt to base Astra Streaming on Apache Pulsar?
+See our https://www.datastax.com/blog/2021/01/four-reasons-why-apache-pulsar-essential-modern-data-stack[blog post] that explains why we are excited about Apache Pulsar and why we decided it was the best technology to base Astra Streaming on.
+
+== What are DataStax’s plans for Kesque?
+Astra Streaming is based heavily on technology originally created as part of Kesque. With the launch of Astra Streaming we will begin the process of shutting down the Kesque service and migrating customers to the new Astra Streaming platform.
+
+== How can I get started with Astra Streaming?
+To get started with Astra Streaming, you can create a free account at https://astra.datastax.com and create your first streaming instance immediately. No credit card required.
+
+== Who are the target customers for Astra Streaming?
+Astra Streaming has been architected to satisfy the most stringent enterprise requirements around availability, scale and latency. Astra Streaming was built to handle mission critical use cases for Fortune 10 companies across BFSI, Telecommunications, Technology, Retail, Oil & Gas and Healthcare.
+
+The pricing model also makes Astra Streaming accessible to mid market and small/medium business customers who need event stream processing capabilities to run core parts of their business.
+
+And finally Astra Streaming offers a user friendly interface and free tier to satisfy the needs of individual developers and technologists who want to learn more about Apache Pulsar and data streaming in general.
+
+== What are tenants, namespaces, topics, and sinks?
+
+*Tenants* are an isolated administrative unit for which an autorization scheme can be set and a set of clusters can be defined.
+Each tenant can have multiple *namespaces*, a logical container for creating and managing a hierarchy of topics.
+A *topic* is a named channel for transmitting messages from producers to consumers.
+A *sink* feeds data from Astra Streaming to an external system, such as Cassandra or Elastic Search.
+
+== Next
+
+* xref:astream-quick-start.adoc[Astra Streaming QuickStart]
+* Browse the xref:api.adoc[Astra API References]

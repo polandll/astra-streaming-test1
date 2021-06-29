@@ -1,0 +1,53 @@
+= Astra Streaming QuickStart
+:slug: astra-streaming-quick-start
+
+This QuickStart aims to make you familiar with the following steps:
+
+* _Prerequisite:_ xref:astream-quick-start.adoc#create-astra-acct[Create an Astra account, if you don't have one already.]
+* xref:astream-quick-start.adoc#create-a-tenant[Create an Astra Streaming tenant.]
+* xref:astream-quick-start.adoc#create-a-namespace[Create an Astra streaming namespace.]
+* xref:astream-quick-start.adoc#create-a-topic[Create an Astra Streaming topic.]
+* xref:astream-quick-start.adoc#download-connect-info[Download Pulsar connection information.]
+* _Optional:_ xref:astream-quick-start.adoc#download-pulsar[Download and configure Apache Pulsar command-line (CLI) tools.]
+* _Optional:_ xref:astream-quick-start.adoc#use-pulsar-tools[Use the Apache Pulsar CLI tools to produce and consume messages.]
+* _Optional:_ xref:astream-quick-start.adoc#review-topic-statistics[Review messaging statistics.]
+* _Optional:_ xref:astream-quick-start.adoc#create-a-sink[Create an Astra Streaming sink.]
+* _Optional:_ xref:astream-quick-start.adoc#delete-a-tenant[Delete an Astra Streaming tenant.]
+
+[#create-astra-acct]
+== Create an Astra account
+
+Before you can complete this quick start, you'll need to create an Astra account.
+
+. Go to https://astra.datastax.com, create an account ...
++
+image::astream-login.png[Login to Astra Streaming]
+
+. ... and https://astra.datastax.com[login].
+. Click *Create Streaming*:
++
+image::astream-create-streaming.png[Create Streaming]
+
+[#create-a-tenant]
+== Create an Astra Streaming tenant
+
+Astra Streaming is based on Apache Pulsar which uses a concept of tenant as its
+top level administrative unit.
+A tenant has multiple namespaces for logical grouping of different applications.
+In each namespace you can create multiple topics to send and receive data.
+Your Astra Streaming account allows you to create a single Pulsar tenant
+containing a maximum of two namespaces that can each contain multiple topics.
+
+Let's begin by creating a new Astra Streaming tenant:
+
+. Enter the name for your new streaming tenant and select a provider ...
++
+image::astream-create-tenant.png[Create new tenant]
+
+. ... and click *Create Tenant*
+
+Your tenant name must start with a lowercase alphabetic character.
+It can only contain lowercase alphabetic characters, numbers, and hyphens (kebab-case).
+
+Currently, only one region is available for each provider.
+During the beta period, the billing plan is free.

@@ -1,0 +1,11 @@
+= Astra Streaming sinks
+
+Currently, two sinks are available for Astra Streaming:
+
+* xref:astream-quick-start.adoc#create-a-sink[ElasticSearch]
+* xref:astream-quick-start.adoc#create-a-sink[Astra DB]
+
+The ElasticSearch sink pulls messages from Pulsar topics and persists the
+messages to indexes.
+The Astra DB sink pulls messages from Pulsar topics and inserts the data
+in an Astra DB table.

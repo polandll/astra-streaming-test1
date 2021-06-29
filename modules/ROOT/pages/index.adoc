@@ -1,0 +1,74 @@
+= What is DataStax Astra Streaming?
+:slug: what-is-datastax-astra-streaming
+
+Astra Streaming is a cloud native data streaming and event stream processing
+service tightly integrated into the Astra cloud platform and powered by Apache Pulsar.
+Using Astra Streaming, customers can quickly create Apache Pulsar instances,
+manage their clusters, scale across cloud regions, and manage Pulsar resources
+such as topics, connectors, functions and subscriptions.
+
+Astra Streaming takes advantage of the core capabilities built into Astra such
+as SSO, IAM and billing.
+Existing Astra customers can augment their existing database capabilities
+with pub/sub and streaming to address a wider range of use cases right away.
+
+With Astra Streaming, customers now have powerful capabilities to help drive key
+business and technical outcomes including:
+
+*Real Time Processing*:: Legacy batch processing jobs result in stale data that
+can slow down an entire business.
+With Astra Streaming, customers can capture event data and data changes in real-time,
+process that data and take action to create a more responsive, nimble organization.
+
+*Data Science & Machine Learning*:: Today, every business is a data business.
+Astra Streaming allows event data to be stored as a persistent event log which
+can be retained indefinitely and played back to refine ML data models or
+offloaded to a data lake or other storage for further analysis in the future.
+
+*Modernized Event Driven Architectures*:: Astra Streaming provides a unified
+messaging platform that addresses streaming, pub/sub and queuing use cases with
+low latency and at massive scale. Organizations that are struggling to make
+their legacy messaging technologies keep up will find Astra Streaming to be a
+frictionless path to modernization.
+
+*Faster Access to Data*:: No one has patience for slow loading web pages or mobile apps.
+By combining Astra Streaming with Astra DB, customers can create read-optimized
+views of data that can be quickly read from Astra DB and ensure that data is
+always up to date by leveraging the event stream processing capabilities of Astra Streaming.
+
+== Astra Streaming beta limits
+
+Astra Streaming beta enforces the following limits:
+
+* Maximum number of tenants per organization: 10
+* Maximum number of namespaces per tenant: 10
+* Maximum number of topics per namespace: 50
+* Maximum number of producers per topic: 50
+* Maximum number of consumers per topic: 50
+* Maximum number of consumers per subscription: 50
+* Maximum Number of Connectors: 50
+* Maximum message size - 5MB (default)
+* Maximum throughput per topic  for consumer  - 5000 messages/s, 25MB/s
+* Maximum throughput per topic  for producer  - 1000 messages/s, 5MB/s
+* Maximum throughput per subscription (consuming ditto)
+* Maximum retention time -Infinite  (minimum settable by user is 2 days)
+* Maximum retention size - Infinite (minimum settable by user is 1G)
+* Maximum TTL - Infinite  (minimum settable 2 days)
+* Backlog size - 10G (minimum settable 500M)
+* Default producer exception when the backlog size is reached
+* Subscription expiry - Don’t set
+* Maximum unacknowledged messages per consumer (default)
+* Maximum unacknowledged messages per subscription (default)
+* Disable auto topic creation
+
+Features that are not supported in Astra Streaming beta:
+
+* Pulsar Functions
+* Pulsar SQL
+* Connectors other than Cassandra/DSE/AstraDB and ElasticSearch
+* Geo-replication
+
+== Next
+
+* xref:astream-quick-start.adoc[Astra Streaming QuickStart]
+* Browse the xref:api.adoc[Astra API References]
