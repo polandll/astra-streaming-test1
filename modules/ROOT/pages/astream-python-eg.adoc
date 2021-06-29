@@ -34,7 +34,7 @@ To do a native install using pip:
 
 [source,bash]
 ----
-include::astra-streaming-code-ex:example$PYTHON/pip1.sh[]
+include::astra-streaming-code-ex:CODE_EX:example$PYTHON/pip1.sh[]
 ----
 --
 
