@@ -1,0 +1,21 @@
+[#create-a-topic]
+== Create an Astra Streaming topic
+
+With your tenant and namespace in place, you can now create a new topic:
+
+. Click the *Topics* tab...
++
+image::astream-new-topic.png[New topic]
+
+. ... and click *Add Topic*
+
+. Enter a topic name...
++
+image::astream-name-topic.png[Name the new topic]
+
+. ... and click *Save*.
++
+[NOTE]
+====
+You can leave *Persistent* and *Partitioned* at their default settings.
+====

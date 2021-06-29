@@ -1,0 +1,20 @@
+[#create-a-namespace]
+== Create an Astra Streaming namespace
+
+When Astra Streaming creates the new streaming tenant, it automatically creates a new namespace called *default*.
+However, you can add a namespace:
+
+. Click the *Namespaces* tab...
++
+image::astream-new-namespace.png[New namespace]
+
+. ... and click *Add Namespace*
+
+. Enter a namespace name...
++
+image::astream-name-namespace.png[Name the new namespace]
+
+. ... and click *Save*.
+
+Your namespace name must start with a lowercase alphabetic character.
+It can only contain lowercase alphabetic characters, numbers, and hyphens (kebab-case).

@@ -15,49 +15,8 @@ This QuickStart aims to make you familiar with the following steps:
 * _Optional:_ xref:astream-quick-start.adoc#delete-a-tenant[Delete an Astra Streaming tenant.]
 
 include::page$qs-create-tenant.adoc[Create an Astra Streaming tenant]
-
-[#create-a-namespace]
-== Create an Astra Streaming namespace
-
-When Astra Streaming creates the new streaming tenant, it automatically creates a new namespace called *default*.
-However, you can add a namespace:
-
-. Click the *Namespaces* tab...
-+
-image::astream-new-namespace.png[New namespace]
-
-. ... and click *Add Namespace*
-
-. Enter a namespace name...
-+
-image::astream-name-namespace.png[Name the new namespace]
-
-. ... and click *Save*.
-
-Your namespace name must start with a lowercase alphabetic character.
-It can only contain lowercase alphabetic characters, numbers, and hyphens (kebab-case).
-
-[#create-a-topic]
-== Create an Astra Streaming topic
-
-With your tenant and namespace in place, you can now create a new topic:
-
-. Click the *Topics* tab...
-+
-image::astream-new-topic.png[New topic]
-
-. ... and click *Add Topic*
-
-. Enter a topic name...
-+
-image::astream-name-topic.png[Name the new topic]
-
-. ... and click *Save*.
-+
-[NOTE]
-====
-You can leave *Persistent* and *Partitioned* at their default settings.
-====
+include::page$qs-create-namespace.adoc[Create an Astra Streaming namespace]
+include::page$qs-create-topic.adoc[Create an Astra Streaming topic]
 
 [#download-connect-info]
 == Download Pulsar connection information
